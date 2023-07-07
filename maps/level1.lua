@@ -9,8 +9,8 @@ return {
   height = 12,
   tilewidth = 64,
   tileheight = 64,
-  nextlayerid = 3,
-  nextobjectid = 12,
+  nextlayerid = 4,
+  nextobjectid = 15,
   properties = {},
   tilesets = {
     {
@@ -190,6 +190,48 @@ return {
           y = 860.062,
           width = 0,
           height = 0,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 3,
+      name = "Enemies",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 12,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 705.365,
+          y = 449.191,
+          width = 63.1564,
+          height = 60.3179,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 13,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 1598.78,
+          y = 509.509,
+          width = 65.9949,
+          height = 65.2853,
           rotation = 0,
           visible = true,
           properties = {}
