@@ -11,6 +11,15 @@ function love.load()
   sprites.playerSheet = love.graphics.newImage('sprites/playerSheet.png')
   sprites.enemySheet = love.graphics.newImage('sprites/enemySheet.png')
 
+  sounds = {}
+  sounds.jump = love.audio.newSource('audio/jump.wav', 'static')
+  sounds.music = love.audio.newSource('audio/music.mp3', 'stream')
+
+  sounds.music:setLooping(true)
+  sounds.music:setVolume(0.1)
+
+  sounds.music:play()
+
   local grid = anim8.newGrid(
     614,
     564,
@@ -118,6 +127,7 @@ function love.keypressed(key)
   if key == 'up' then
     if player.grounded then
       player:applyLinearImpulse(0, -4000)
+      sounds.jump:play()
     end
   end
 end

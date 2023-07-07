@@ -22,11 +22,15 @@
             "scaleInDock": 1
         },
         "level2.tmx": {
+            "expandedObjectLayers": [
+                2,
+                3
+            ],
             "scale": 1.4092,
-            "selectedLayer": 2,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 761.0701107011068,
-                "y": 548.1833664490491
+                "x": 669.5288106727221,
+                "y": 594.3088277036616
             }
         },
         "level2.tmx#tileset": {
