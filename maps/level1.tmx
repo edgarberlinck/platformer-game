@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="4" nextobjectid="15">
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="16">
  <editorsettings>
   <export target="level1.lua" format="lua"/>
  </editorsettings>
  <tileset firstgid="1" name="tileset" tilewidth="64" tileheight="64" tilecount="9" columns="3">
   <image source="tileset.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="10" name="flags" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="flag.png" width="64" height="64"/>
  </tileset>
  <layer id="1" name="Tile Layer 1" width="40" height="12">
   <data encoding="csv">
@@ -15,13 +18,16 @@
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,
 0,0,0,0,0,0,0,0,7,8,8,8,9,0,0,4,5,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,9,
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,5,5,6,0,0,0,7,8,8,8,9,0,0,0,1,2,3,0,0,0,0,0,0,0,
 0,0,1,2,2,2,3,0,0,0,0,0,0,0,0,4,5,5,6,0,0,0,0,0,0,0,0,0,0,0,4,5,6,0,0,0,0,0,0,0,
 0,0,4,5,5,5,6,0,0,0,0,0,0,0,0,4,5,5,6,0,0,0,0,0,0,0,0,0,0,0,4,5,6,0,0,0,0,0,0,0
 </data>
  </layer>
+ <objectgroup id="4" name="Flag">
+  <object id="15" x="2433.61" y="448.561" width="60.2544" height="61.3702"/>
+ </objectgroup>
  <objectgroup id="2" name="Platforms">
   <object id="4" x="128.442" y="640.079" width="318.62" height="125.603"/>
   <object id="5" x="512.347" y="509.509" width="319.33" height="61.7372"/>
