@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="40" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="5" nextobjectid="19">
+ <editorsettings>
+  <export target="level2.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" name="tileset" tilewidth="64" tileheight="64" tilecount="9" columns="3">
+  <image source="tileset.png" width="192" height="192"/>
+ </tileset>
+ <tileset firstgid="10" name="flags" tilewidth="64" tileheight="64" tilecount="1" columns="1">
+  <image source="flag.png" width="64" height="64"/>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="40" height="12">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,
+0,0,0,0,0,0,0,0,7,8,8,8,9,0,0,4,5,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,8,8,8,9,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,5,5,6,0,0,0,7,8,8,8,9,0,0,0,1,2,3,0,0,0,0,0,0,0,
+0,0,1,2,2,2,3,0,0,0,0,0,0,0,0,4,5,5,6,0,0,0,0,0,0,0,0,0,0,0,4,5,6,0,0,0,0,0,0,0,
+0,0,4,5,5,5,6,0,0,0,0,0,0,0,0,4,5,5,6,0,0,0,0,0,0,0,0,0,0,0,4,5,6,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Flag">
+  <object id="16" x="2434.01" y="454.158" width="60.3179" height="56.0602"/>
+  <object id="17" x="2649.73" y="450.61"/>
+  <object id="18" x="2284.98" y="839.483"/>
+ </objectgroup>
+ <objectgroup id="2" name="Platforms">
+  <object id="4" x="128.442" y="640.079" width="318.62" height="125.603"/>
+  <object id="5" x="512.347" y="509.509" width="319.33" height="61.7372"/>
+  <object id="6" x="960.119" y="447.062" width="254.754" height="320.749"/>
+  <object id="7" x="1408.6" y="575.504" width="318.62" height="63.1564"/>
+  <object id="8" x="1919.53" y="575.504" width="190.888" height="190.179"/>
+  <object id="9" x="2240.28" y="512.347" width="319.33" height="62.4468"/>
+  <object id="10" x="2694.44" y="555.634"/>
+  <object id="11" x="2470.2" y="860.062"/>
+ </objectgroup>
+ <objectgroup id="3" name="Enemies">
+  <object id="12" x="705.365" y="449.191" width="63.1564" height="60.3179"/>
+  <object id="13" x="1598.78" y="509.509" width="65.9949" height="65.2853"/>
+  <object id="15" x="965.087" y="387.454" width="54.6409" height="56.7698"/>
+ </objectgroup>
+</map>
