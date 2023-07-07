@@ -8,11 +8,15 @@
     ],
     "fileStates": {
         "level1.tmx": {
+            "expandedObjectLayers": [
+                5,
+                4
+            ],
             "scale": 0.8962,
-            "selectedLayer": 1,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 2141.821022093283,
-                "y": 439.07609908502565
+                "x": 643.2715911626868,
+                "y": 510.48873019415316
             }
         },
         "level1.tmx#flags": {
@@ -24,13 +28,14 @@
         "level2.tmx": {
             "expandedObjectLayers": [
                 2,
+                4,
                 3
             ],
             "scale": 1.4092,
-            "selectedLayer": 1,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 669.5288106727221,
-                "y": 594.3088277036616
+                "x": 207.5645756457564,
+                "y": 592.8895827419813
             }
         },
         "level2.tmx#tileset": {

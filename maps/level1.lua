@@ -9,8 +9,8 @@ return {
   height = 12,
   tilewidth = 64,
   tileheight = 64,
-  nextlayerid = 5,
-  nextobjectid = 16,
+  nextlayerid = 6,
+  nextobjectid = 18,
   properties = {},
   tilesets = {
     {
@@ -127,6 +127,35 @@ return {
           x = 2433.61,
           y = 448.561,
           width = 60.2544,
+          height = 61.3702,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        }
+      }
+    },
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 5,
+      name = "Checkpoint",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 16,
+          name = "",
+          type = "",
+          shape = "rectangle",
+          x = 195.269,
+          y = 448.561,
+          width = 55.7911,
           height = 61.3702,
           rotation = 0,
           visible = true,
